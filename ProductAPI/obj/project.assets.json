@@ -500,11 +500,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KLagowski\\Source\\Repos\\ProductAPI3\\ProductAPI\\ProductAPI.csproj",
+      "projectUniqueName": "C:\\Users\\KLagowski\\source\\repos\\ProductAPI\\ProductAPI\\ProductAPI.csproj",
       "projectName": "ProductAPI",
-      "projectPath": "C:\\Users\\KLagowski\\Source\\Repos\\ProductAPI3\\ProductAPI\\ProductAPI.csproj",
+      "projectPath": "C:\\Users\\KLagowski\\source\\repos\\ProductAPI\\ProductAPI\\ProductAPI.csproj",
       "packagesPath": "C:\\Users\\KLagowski\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KLagowski\\Source\\Repos\\ProductAPI3\\ProductAPI\\obj\\",
+      "outputPath": "C:\\Users\\KLagowski\\source\\repos\\ProductAPI\\ProductAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

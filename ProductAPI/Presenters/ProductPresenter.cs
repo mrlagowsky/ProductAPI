@@ -70,7 +70,7 @@ namespace ProductAPI.Presenters
         /// <param name="price">New product price</param>
         /// <param name="conn">Connection details</param>
         /// <returns></returns>
-        public static string CreateProduct(string name, decimal price, SqlConnection conn)
+        public static Guid? CreateProduct(string name, decimal price, SqlConnection conn)
         {
             SqlCommand sqlCmd = new SqlCommand("INSERT INTO Products (Id, Name, Price) Output Inserted.Id VALUES (@Id, @Name, @Price)", conn);
             sqlCmd.CommandType = CommandType.Text;
@@ -84,9 +84,9 @@ namespace ProductAPI.Presenters
             {
                 Guid _newProductGuid = new Guid(reader["Id"].ToString());
                 conn.Close();
-                return _newProductGuid.ToString();
+                return _newProductGuid;
             }
-            return string.Empty;
+            return null;
         }
 
         /// <summary>

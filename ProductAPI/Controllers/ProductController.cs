@@ -43,7 +43,7 @@ namespace ProductAPI.Controllers
         [HttpPost]
         public string CreateProduct(string name, decimal price)
         {
-            return ProductPresenter.CreateProduct(name, price, connection);
+            return ProductPresenter.CreateProduct(name, price, connection).ToString();
         }
 
         [HttpPost]
